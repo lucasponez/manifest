@@ -9,13 +9,13 @@ To get started with manifest/legionos, you'll need to get familiar with [Repo](h
 To initialize your local repository, use a command like this:
 
 ```bash
-repo init -u https://github.com/Project-LegionOS/manifest.git -b 11
+repo init -u https://github.com/Project-LegionOS/manifest.git -b 3.4
 
 ```
 You can alternatively use this command to save some space and time :
 
 ```bash
-repo init --depth=1 -u https://github.com/Project-LegionOS/manifest.git -b 11
+repo init --depth=1 -u https://github.com/Project-LegionOS/manifest.git -b 3.4
 
 ```
 
