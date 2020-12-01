@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="build/make" name="build_make" remote="legion" revision="11" >
+  <project path="build/make" name="build_make" remote="legion" revision="3.4" >
       <copyfile src="core/root.mk" dest="Makefile" />
       <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
       <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -19,6 +19,6 @@
   <project path="bionic" name="bionic" remote="legion" revision="11" />
   <project path="bootable/recovery" name="bootable_recovery" remote="legion" revision="11" />
   <project path="tools/metalava" name="tools_metalava" remote="legion" revision="11" />
-  <project path="manifest" name="manifest" remote="legion" />
+  <project path="manifest" name="manifest" remote="legion" revision="3.4" />
 
 </manifest>
