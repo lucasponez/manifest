@@ -66,7 +66,9 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/external/fastrpc" />                
   <remove-project name="platform/external/libcxx" />                
-
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/scudo" />
+  
   <!-- frameworks -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
