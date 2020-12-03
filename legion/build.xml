@@ -16,6 +16,7 @@
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
     
+  <project path="art" name="android_art" remote="common" />
   <project path="bionic" name="bionic" remote="legion" revision="10" />
   <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="lineage" />
   <project path="bootable/recovery" name="bootable_recovery" remote="legion" revision="10" />
